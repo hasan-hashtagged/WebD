@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prompt page</title>
+    <script>
+      function myPrompt() {
+        var inp=prompt("Enter a name","Hasan");
+        if(inp!="") {
+          document.getElementById('msg').innerHTML="Hi "+inp+" how are you?";
+        }
+        else {
+          alert('please provide a value!!');
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Let's see the prompt</h1>
+    <button onclick="myPrompt();">Click me</button>
+    <p id="msg"></p>
+  </body>
+</html>

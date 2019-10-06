@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alert message</title>
+    <script>
+      function Myalert() {
+        var userinput=document.getElementById('in').value;
+        alert('The multiplied number is: '+userinput*5);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Let's see what is going to happen</h1>
+    <!--alert message-->
+    <button onclick="alert('hahaha');">Click me</button>
+    <input type="number" placeholder="Enter a number" id="in">
+    <!--userdefined function containing alert message-->
+    <button onclick="Myalert();">Multiply by 5</button>
+  </body>
+</html>

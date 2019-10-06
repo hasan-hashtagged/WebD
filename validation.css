@@ -1,0 +1,39 @@
+body {
+  background-image: url('https://img.freepik.com/free-photo/close-up-black-marble-textured-background_53876-63511.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#heading {
+  background-color: #080;
+  color: white;
+  margin: -19px 0 0 -10px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+#fullform {
+/*background-color: hsl(0,0%,0%,.3);*/
+  margin: 200px 500px auto 700px;
+}
+td {
+  padding: 5px;
+  text-align: center;
+}
+/* IDs and Classes */
+.label_col {
+  color: #080;
+  font-size: 130%;
+  font-family: fantasy;
+  background-color: rgba(255,150,180,.5);
+}
+.input_col {
+  background-color: rgba(255,150,180,.5);
+}
+button {
+  background-color: #080;
+  color: white;
+  font-size: 120%;
+  padding: 10px;
+  border-radius: 10px 10px;
+}

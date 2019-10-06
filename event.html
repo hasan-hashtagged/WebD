@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>event</title>
+    <script>
+      function doMe() {
+        var field=document.getElementById('field1').value;
+        if(field.length<=5) {
+          document.getElementById('message1').innerHTML="this is the last chance";
+        }
+        else {
+          alert("this is chutiyapa");
+        }
+      }
+    </script>
+  </head>
+  <body onload="alert('Hi gorgeous how are you?');">
+    <p>This is an alert to this body. I need to be the closest one to be the part of the this</p>
+    Name: <input id="field1" type="text" onblur="doMe();"><span id="message1"></span><br>
+    Class: <input id="field2" type="text" placeholder="Enter the name"><span></span>
+  </body>
+</html>

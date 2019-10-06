@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practice</title>
+    <script>
+      function func() {
+        var k=document.getElementById('name').value;
+        if(k.length<=5) {
+          alert('the name requires more characters');
+        }
+        else {
+          document.getElementById('message1').innerHTML="Hi "+k;
+        }
+      }
+      function func1() {
+        var k=document.getElementById('cls').value;
+        if(k!="") {
+          document.getElementById('message2').innerHTML="input accepted!";
+        }
+        else {
+          document.getElementById('message2').innerHTML="Please provide a value!";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1><marquee>Let's get ready for the revision of events in java script</marquee></h1>
+    Name:<input type="text" id="name" placeholder="Enter your name" onblur="func();"><span id="message1"></span><br>
+    Class:<input type="number" id="cls" min="0" onblur="func1();"><span id="message2"></span><br>
+  </body>
+</html>

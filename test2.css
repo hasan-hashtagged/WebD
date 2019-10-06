@@ -1,0 +1,51 @@
+body {
+  background-image: url('https://img.freepik.com/free-photo/close-up-black-marble-textured-background_53876-63511.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #080;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-size: 300%;
+  color: hsla(0,80%,60%,1);
+}
+table {
+  align-items: center;
+}
+table,th,td {
+  border: 1px solid chocolate;
+  border-collapse: collapse;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+}
+th {
+  background-color: #9966ff;
+}
+table tr:nth-child(odd) {
+  background-color: rgba(240,130,150,.3);
+}
+table tr:nth-child(even) {
+  background-color: rgba(40,255,190,.3);
+}
+#hlist {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+#hlist li{
+  float: left;
+}
+li a {
+  background-color: #080;
+  display: block;
+  color: white;
+  font-size: 200%;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #333;
+  color:white;
+}

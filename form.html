@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms and Validation</title>
+    <link rel="stylesheet" href="validation.css"/>
+    <script type="text/javascript" src="validation.js"></script>
+  </head>
+  <body>
+    <div id="heading">
+      <h1>Welcome to UI Portal Validation</h1>
+    </div>
+    <form action="#">
+      <div id="fullform">
+        <table id="form1" style="border-collapse:collapse;">
+          <tr>
+            <td class="label_col">FirstName:</td>
+            <td class="input_col"><input type="text" id="fname" name="fname" onblur="checkfname();"></td>
+            <td class="helper_col"><span id="fnameprompt"></span>&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="label_col">Last Name:</td>
+            <td class="input_col"><input type="text" id="lname" name="lname" onblur="checklname();"></td>
+            <td class="helper_col"><span id="lnameprompt"></span>&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="label_col">Mobile No.:</td>
+            <td class="input_col"><input type="text" id="phone" name="lname" onblur="checkphone();"></td>
+            <td class="helper_col"><span id="Phoneprompt"></span></td>
+          </tr>
+          <tr>
+            <td class="label_col">Birthday:</td>
+            <td class="input_col"><input type="date" name="bday"></td>
+            <td class="helper_col"><span id="bdayprompt"></span></td>
+          </tr>
+          <tr>
+          <td class"button" colspan="3"><button id="butt" onclick="validateall();">Validate</button></td>
+        </tr>
+        </table>
+      </div>
+    </form>
+    <div id="printer"></div>
+  </body>
+</html>

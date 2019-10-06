@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Dynamic Page</title>
+    <script>
+      function addpara() {
+          var testinput=document.getElementById("name").value;
+          if(testinput.length==0)
+            document.getElementById("para").innerHTML="Please Enter name";
+          else {
+            document.getElementById("para").innerHTML="Hi! "+testinput;
+            }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>There is a button given below</h1>
+    <input id="name" type="text" placeholder="Enter your name" />
+    <button onclick="addpara();">ClickMe</button>
+    <p id="para"></p>
+  </body>
+</html>
